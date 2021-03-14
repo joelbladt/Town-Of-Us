@@ -9,12 +9,7 @@ namespace TownOfUs
         public static void Prefix(PlayerControl __instance, [HarmonyArgument(0)] PlayerControl opponent)
         {
 
-            if (__instance.isSheriff())
-            {
-                __instance.Data.IsImpostor = true;
-            }
-
-            if (__instance.isShifter())
+            if (__instance.isSheriff() || __instance.isShifter())
             {
                 __instance.Data.IsImpostor = true;
             }
