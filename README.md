@@ -185,7 +185,7 @@ To counteract this, The Swapper cannot fix Lights or Comms and cannot push the E
 ## Investigator
 ### **Team: Crewmates**
 The Investigator can see the movement of players.\
-Every player leaves a footprint that only the Investigator can see, which disappears after some time.\
+Every player leaves a footprint that only the Investigator can see, which disappears after some time.
 
 ### Game Options
 | Name | Description | Type | Default |
@@ -199,7 +199,7 @@ Every player leaves a footprint that only the Investigator can see, which disapp
 -----------------------
 ## Time Master
 ### **Team: Crewmates**
-The Time Master can rewind time and all plaers will reverse.\
+The Time Master can rewind time and all players will reverse.\
 If enabled, any players killed during this time will be revived.\
 Nothing but movements and kills are affected (for now).
 
